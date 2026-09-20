@@ -299,7 +299,19 @@ input, textarea { font-family: inherit; font-size: 16px; }
 .portfolio-card__cta:hover .arrow { transform: translateX(4px); }
 
 /* ---------- Модалка ---------- */
-.modal { position: fixed; inset: 0; z-index: 300; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modal[hidden] {
+  display: none !important;
+}
 .modal__backdrop { position: absolute; inset: 0; background: rgba(8,9,11,0.85); backdrop-filter: blur(4px); }
 .modal__body {
   position: relative; z-index: 1; background: var(--card); border: 1px solid var(--border);
