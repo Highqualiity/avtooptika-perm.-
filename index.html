@@ -4,26 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- ===================== SEO ===================== -->
 <title>Установка Bi-LED линз в Перми — профессиональная автооптика</title>
-<meta name="description" content="Профессиональная установка Bi-LED линз в Перми с сохранением штатного функционала автомобиля. Ремонт и восстановление фар, регулировка света, гарантия на работу.">
-<link rel="canonical" href="https://ЗАМЕНИТЬ-НА-ВАШ-ДОМЕН.ru/">
+<meta name="description" content="Профессиональная установка Bi-LED линз в Перми, восстановление и ремонт фар, замена стёкол, полировка, защита плёнкой и настройка света. Расчёт стоимости по фото фар.">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:site_name" content="Автооптика Пермь">
+<meta property="og:site_name" content="Auto Optic — Пермь">
 <meta property="og:title" content="Установка Bi-LED линз в Перми — профессиональная автооптика">
-<meta property="og:description" content="Видеть дорогу дальше. Не слепить встречных. Установка Bi-LED линз с сохранением штатного функционала автомобиля.">
-<meta property="og:url" content="https://ЗАМЕНИТЬ-НА-ВАШ-ДОМЕН.ru/">
-<!-- TODO: заменить на реальное OG-изображение 1200x630 (кадр из hero или готовый авто ночью) -->
-<meta property="og:image" content="https://placehold.co/1200x630/0B0B0D/C6FF3B?text=Bi-LED+%D0%9F%D0%B5%D1%80%D0%BC%D1%8C">
+<meta property="og:description" content="Улучшаем штатный свет автомобиля с помощью Bi-LED оптики — с сохранением штатных функций и настройкой света после установки.">
+<!-- Домен и OG-изображение (кадр реального результата) добавить после публикации на постоянном адресе -->
 
-<!-- TODO: заменить на реальный favicon (рекомендуется 32x32 и 180x180 apple-touch-icon) -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="images/favicon.png">
 
-<!-- Шрифты -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -32,467 +25,521 @@
 </head>
 <body>
 
-<!-- ===================== ШАПКА ===================== -->
-<header class="site-header" id="siteHeader">
-  <div class="container header__inner">
-    <a href="#top" class="logo">АВТООПТИКА<span>·ПЕРМЬ</span></a>
+<a href="#main" class="skip-link">Перейти к содержимому</a>
 
-    <nav class="nav" aria-label="Основная навигация">
-      <a href="#biled">Bi-LED</a>
-      <a href="#services">Услуги</a>
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <img src="images/logo.png" alt="Auto Optic — профессиональная автооптика в Перми" class="logo__img" width="800" height="283">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Основная навигация">
       <a href="#portfolio">Работы</a>
+      <a href="#services">Услуги</a>
       <a href="#prices">Цены</a>
-      <a href="#faq">Вопросы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">FAQ</a>
     </nav>
 
-    <div class="header__contacts">
-      <!-- TODO: заменить на реальный номер телефона -->
+    <div class="header__right">
       <a href="tel:+79954801481" class="header__phone">8 (995) 480-14-81</a>
-      <a href="#final-cta" class="btn btn--primary btn--small">Рассчитать стоимость</a>
+      <a href="#final-cta" class="btn btn--primary btn--small">Рассчитать →</a>
+      <button class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
 </header>
 
-<main id="top">
+<!-- ===================== MOBILE MENU ===================== -->
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav aria-label="Мобильная навигация">
+    <a href="#portfolio">Работы</a>
+    <a href="#services">Услуги</a>
+    <a href="#prices">Цены</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <a href="tel:+79954801481" class="mobile-menu__phone">8 (995) 480-14-81</a>
+  <a href="#final-cta" class="btn btn--primary btn--full">Рассчитать стоимость →</a>
+</div>
 
-  <!-- ===================== 1. HERO ===================== -->
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
   <section class="hero" id="hero">
-    <div class="hero__photo">
-      <!-- TODO: заменить на реальное фото — кроссовер ночью 3/4, фары включены, мокрый асфальт (см. фото-ТЗ) -->
-      <img
-        src="https://placehold.co/1600x1400/1b1b1e/26262a?text=HERO+%E2%80%94+%D0%B0%D0%B2%D1%82%D0%BE+%D0%BD%D0%BE%D1%87%D1%8C%D1%8E"
-        alt="Автомобиль с включённым Bi-LED светом фар ночью на мокрой дороге в Перми"
-        class="hero__img">
-      <div class="hero__gradient hero__gradient--horizontal" aria-hidden="true"></div>
-      <div class="hero__gradient hero__gradient--vertical" aria-hidden="true"></div>
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+      <div class="hero__beam"></div>
+      <div class="hero__grain"></div>
     </div>
 
     <div class="container hero__content">
-      <div class="hero__text reveal">
-        <span class="accent-line" aria-hidden="true"></span>
-        <p class="eyebrow">Профессиональная автооптика в Перми</p>
-        <h1 class="hero__title">Видеть дорогу дальше.<br>Не слепить встречных.</h1>
-        <p class="hero__subtitle">Установка Bi-LED линз в Перми с сохранением штатного функционала автомобиля.</p>
+      <p class="label reveal">Пермь · Профессиональная автооптика</p>
 
-        <div class="hero__actions">
-          <a href="#final-cta" class="btn btn--primary">Рассчитать стоимость</a>
-          <a href="#portfolio" class="btn btn--text">Смотреть работы <span class="arrow">→</span></a>
-        </div>
+      <h1 class="hero__title reveal">
+        Видеть дорогу<br>
+        <span class="accent">дальше.</span><br>
+        Не слепить<br>
+        встречных.
+      </h1>
 
-        <p class="trust-line">
-          <span>✓ Гарантия на работу</span>
-          <span>✓ Штатный функционал</span>
-          <span>✓ Точная регулировка света</span>
-        </p>
+      <p class="hero__subtitle reveal">Улучшаем штатный свет автомобиля с помощью Bi-LED оптики — с сохранением штатных функций и настройкой света после установки.</p>
+
+      <div class="hero__actions reveal">
+        <a href="#final-cta" class="btn btn--primary">Рассчитать стоимость <span class="arrow">→</span></a>
+        <a href="#portfolio" class="btn btn--ghost">Смотреть работы <span class="arrow arrow--down">↓</span></a>
       </div>
-    </div>
 
-    <div class="hero__scroll" aria-hidden="true">
-      <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10 2V26M10 26L2 18M10 26L18 18" stroke="#9A9A9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+      <p class="trust-line reveal">
+        <span>✓ Гарантия</span>
+        <span>✓ Сохранение штатных функций</span>
+        <span>✓ Настройка света</span>
+      </p>
     </div>
   </section>
 
-  <!-- ===================== 2. ПРОБЛЕМА ===================== -->
-  <section class="section section--secondary" id="problem">
+  <!-- ===================== 01 / ПРОБЛЕМА ===================== -->
+  <section class="section" id="problem">
     <div class="container">
-      <h2 class="section__title reveal">Знакомо?</h2>
+      <p class="label reveal">01 / Проблема</p>
+      <h2 class="section__title reveal">Штатный свет<br>не всегда справляется.</h2>
 
       <div class="problem-grid">
         <div class="problem-card reveal">
+          <span class="problem-card__num">01</span>
           <p>Плохо видно ночью</p>
         </div>
         <div class="problem-card reveal">
-          <p>Свет светит слишком низко</p>
+          <span class="problem-card__num">02</span>
+          <p>Мокрая дорога съедает свет</p>
         </div>
         <div class="problem-card reveal">
-          <p>Фары пожелтели или помутнели</p>
+          <span class="problem-card__num">03</span>
+          <p>Фары потеряли прозрачность</p>
         </div>
         <div class="problem-card reveal">
-          <p>Встречных слепит дальний свет</p>
-        </div>
-        <div class="problem-card reveal">
-          <p>Светотеневая граница «плывёт»</p>
-        </div>
-        <div class="problem-card reveal">
-          <p>Автомобиль выглядит уставшим</p>
+          <span class="problem-card__num">04</span>
+          <p>Нет чёткой светотеневой границы</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 3. BI-LED (главный коммерческий блок) ===================== -->
-  <section class="section" id="biled">
-    <div class="container">
-      <h2 class="section__title reveal">Что происходит со светом на самом деле</h2>
-
-      <div class="biled-steps">
-        <div class="biled-step reveal">
-          <span class="biled-step__num">1</span>
-          <h3>Штатная оптика</h3>
-          <p>Свет рассеивается некорректно: часть уходит вверх и слепит встречных, часть — в никуда. Освещённость дороги неравномерная.</p>
-        </div>
-        <div class="biled-step reveal">
-          <span class="biled-step__num">2</span>
-          <h3>Просто лампа ярче — не решение</h3>
-          <p>Обычная лампа светит во все стороны одинаково. Без правильной линзы яркий свет не фокусируется, а слепит других водителей ещё сильнее.</p>
-        </div>
-        <div class="biled-step reveal">
-          <span class="biled-step__num">3</span>
-          <h3>Bi-LED линза</h3>
-          <p>Фокусирует свет в чёткий пучок с ровной верхней границей: вниз и вперёд — ярко, в глаза встречным — нет.</p>
-        </div>
-        <div class="biled-step reveal">
-          <span class="biled-step__num">4</span>
-          <h3>Настройка после установки</h3>
-          <p>Линза без регулировки под конкретный автомобиль работает неправильно. Регулировка света — обязательная часть работы, а не опция.</p>
-        </div>
+  <!-- ===================== 02 / OPTICS ===================== -->
+  <section class="section section--alt" id="optics">
+    <div class="container optics">
+      <div class="optics__visual reveal" aria-hidden="true">
+        <svg viewBox="0 0 400 400" class="optics__svg">
+          <defs>
+            <radialGradient id="lensGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#C8FF38" stop-opacity="0.9"/>
+              <stop offset="55%" stop-color="#C8FF38" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="#C8FF38" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="140" fill="url(#lensGlow)"/>
+          <circle cx="200" cy="200" r="90" fill="none" stroke="#252A31" stroke-width="1.5"/>
+          <circle cx="200" cy="200" r="60" fill="none" stroke="#9298A2" stroke-width="1"/>
+          <circle cx="200" cy="200" r="30" fill="#C8FF38"/>
+          <g stroke="#252A31" stroke-width="1">
+            <line x1="200" y1="20" x2="200" y2="80"/>
+            <line x1="200" y1="320" x2="200" y2="380"/>
+            <line x1="20" y1="200" x2="80" y2="200"/>
+            <line x1="320" y1="200" x2="380" y2="200"/>
+          </g>
+        </svg>
       </div>
 
-      <div class="biled-note reveal">
-        <p>В современном автомобиле фары — это не просто лампочки. Автокорректор сам наклоняет свет в зависимости от загрузки машины, адаптивный свет поворачивает пучок вслед за рулём, а дневные ходовые огни включаются автоматически. При небрежной установке эти функции могут перестать работать. Мы проверяем и настраиваем их после каждой установки — это часть работы, а не отдельная услуга за доплату.</p>
-      </div>
+      <div class="optics__text">
+        <p class="label reveal">02 / Optics</p>
+        <h2 class="section__title reveal">Свет — это не только<br>яркость.</h2>
 
-      <p class="biled-linkover reveal">Разные автомобили и задачи требуют разных линз — конкретный вариант и его стоимость собраны в блоке «Цены» ниже.</p>
-
-      <div class="section__cta reveal">
-        <a href="#final-cta" class="btn btn--primary">Рассчитать стоимость установки на мою машину</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== 4. ДО / ПОСЛЕ ===================== -->
-  <section class="section section--secondary" id="before-after">
-    <div class="container">
-      <h2 class="section__title reveal">До и после</h2>
-      <p class="section__subtitle reveal">Перетащите ползунок, чтобы сравнить</p>
-
-      <div class="ba-slider reveal" data-before-after>
-        <!-- TODO: заменить на реальные фото "до" и "после" (одна и та же точка съёмки, желательно ночной свет) -->
-        <img class="ba-slider__after"
-             src="https://placehold.co/1200x800/1b1b1e/C6FF3B?text=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95"
-             alt="Свет фары после установки Bi-LED линз">
-        <div class="ba-slider__before-wrap">
-          <img class="ba-slider__before"
-               src="https://placehold.co/1200x800/141416/9A9A9F?text=%D0%94%D0%9E"
-               alt="Свет фары до установки Bi-LED линз">
+        <div class="optics__compare reveal">
+          <div class="optics__row">
+            <h3>Штатная оптика</h3>
+            <p>Световой поток формируется существующей оптической системой автомобиля.</p>
+          </div>
+          <div class="optics__row optics__row--accent">
+            <h3>Bi-LED</h3>
+            <p>Оптический модуль формирует направленный световой пучок и позволяет улучшить освещение дороги при корректной установке и настройке.</p>
+          </div>
         </div>
-        <div class="ba-slider__handle" aria-hidden="true">
-          <span class="ba-slider__handle-line"></span>
-          <span class="ba-slider__handle-grip">↔</span>
-        </div>
-        <input type="range" min="0" max="100" value="50" class="ba-slider__input" aria-label="Ползунок сравнения до и после">
+
+        <p class="optics__chain reveal">СВЕТ <span>→</span> ФОРМА ПУЧКА <span>→</span> НАСТРОЙКА</p>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 5. УСЛУГИ ПО КАТЕГОРИЯМ ===================== -->
-  <section class="section" id="services">
+  <!-- ===================== 03 / РЕЗУЛЬТАТ (BEFORE/AFTER) ===================== -->
+  <section class="section" id="result">
     <div class="container">
-      <h2 class="section__title reveal">Что ещё мы делаем с оптикой</h2>
+      <p class="label reveal">03 / Результат</p>
+      <h2 class="section__title reveal">Разницу<br>видно сразу.</h2>
 
-      <div class="services-grid">
-        <details class="service-card reveal" open>
-          <summary>Свет</summary>
-          <ul>
-            <li>Установка ДХО</li>
-            <li>Замена ламп</li>
-            <li>Регулировка фар</li>
-            <li>Установка LED-балок, маркеров</li>
-          </ul>
-        </details>
+      <div class="ba" id="baSlider" data-ba>
+        <div class="ba__panel ba__panel--after" aria-hidden="true">
+          <svg viewBox="0 0 800 500" preserveAspectRatio="none" class="ba__svg">
+            <rect width="800" height="500" fill="#0D0F12"/>
+            <path d="M0 500 L250 260 L800 260 L800 500 Z" fill="#C8FF38" opacity="0.14"/>
+            <line x1="250" y1="260" x2="800" y2="260" stroke="#C8FF38" stroke-width="2"/>
+            <path d="M250 260 L120 500" stroke="#252A31" stroke-width="1"/>
+            <path d="M800 260 L800 260" stroke="#252A31" stroke-width="1"/>
+          </svg>
+          <span class="ba__tag ba__tag--after">После</span>
+        </div>
 
-        <details class="service-card reveal">
-          <summary>Восстановление</summary>
-          <ul>
-            <li>Пайка трещин и креплений</li>
-            <li>Замена стёкол фар</li>
-            <li>Герметизация фар</li>
-            <li>Полировка и шлифовка фар</li>
-            <li>Восстановление проводки и разъёмов</li>
-          </ul>
-        </details>
+        <div class="ba__panel ba__panel--before" id="baBefore">
+          <svg viewBox="0 0 800 500" preserveAspectRatio="none" class="ba__svg">
+            <rect width="800" height="500" fill="#0D0F12"/>
+            <path d="M0 500 L120 210 L340 340 L560 180 L800 320 L800 500 Z" fill="#9298A2" opacity="0.10"/>
+            <path d="M120 210 L340 340" stroke="#9298A2" stroke-width="1.5" stroke-dasharray="4 5"/>
+            <path d="M340 340 L560 180" stroke="#9298A2" stroke-width="1.5" stroke-dasharray="4 5"/>
+            <path d="M560 180 L800 320" stroke="#9298A2" stroke-width="1.5" stroke-dasharray="4 5"/>
+          </svg>
+          <span class="ba__tag ba__tag--before">До</span>
+        </div>
 
-        <details class="service-card reveal">
-          <summary>Защита</summary>
-          <ul>
-            <li>Оклейка фар полиуретановой плёнкой</li>
-            <li>Ремонт фар</li>
-          </ul>
-        </details>
+        <div class="ba__handle" id="baHandle" aria-hidden="true">
+          <span class="ba__handle-line"></span>
+          <span class="ba__handle-grip">↔</span>
+        </div>
+        <input type="range" min="0" max="100" value="50" class="ba__input" id="baInput" aria-label="Ползунок сравнения до и после">
+      </div>
 
-        <details class="service-card reveal">
-          <summary>Внешний вид</summary>
-          <ul>
-            <li>Окрашивание масок фар</li>
-            <li>Индивидуальные решения по внешнему виду</li>
-            <li>Подсветка решётки</li>
-          </ul>
-        </details>
-
-        <details class="service-card reveal">
-          <summary>Дополнительное оборудование</summary>
-          <ul>
-            <li>Скрытая установка видеорегистраторов</li>
-            <li>Парковочные ассистенты, камеры заднего вида</li>
-            <li>Шумоизоляция</li>
-          </ul>
-        </details>
+      <div class="ba__labels">
+        <span>Чёткая СТГ</span>
+        <span>Равномерный пучок</span>
+        <span>Настроенный свет</span>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 6. ПОРТФОЛИО ===================== -->
-  <section class="section section--secondary" id="portfolio">
+  <!-- ===================== 04 / PROCESS ===================== -->
+  <section class="section section--alt" id="process">
     <div class="container">
-      <h2 class="section__title reveal">Примеры работ</h2>
+      <p class="label reveal">04 / Process</p>
+      <h2 class="section__title reveal">Как проходит<br>работа.</h2>
 
-      <div class="portfolio-filters reveal" role="tablist" aria-label="Фильтр по маркам">
-        <button class="filter-chip is-active" data-filter="all">Все марки</button>
-        <button class="filter-chip" data-filter="bmw">BMW</button>
-        <button class="filter-chip" data-filter="mercedes">Mercedes</button>
-        <button class="filter-chip" data-filter="toyota-lexus">Toyota / Lexus</button>
-        <button class="filter-chip" data-filter="kia-hyundai">Kia / Hyundai</button>
-        <button class="filter-chip" data-filter="vag">VAG</button>
+      <div class="process">
+        <div class="process__step reveal">
+          <span class="process__num">01</span>
+          <h3>Диагностика</h3>
+          <p>Проверяем состояние оптики.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">02</span>
+          <h3>Подбор</h3>
+          <p>Подбираем решение под автомобиль.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">03</span>
+          <h3>Установка</h3>
+          <p>Устанавливаем выбранную оптику.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">04</span>
+          <h3>Сборка</h3>
+          <p>Восстанавливаем герметичность.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">05</span>
+          <h3>Настройка</h3>
+          <p>Выставляем свет и проверяем результат.</p>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ===================== 05 / REAL WORK ===================== -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <p class="label reveal">05 / Real work</p>
+      <h2 class="section__title reveal">Не обещаем.<br>Показываем.</h2>
 
       <div class="portfolio-grid">
-        <!-- Карточка-пример. TODO: заменить фото и данные на реальные работы, дублировать карточку под каждый кейс -->
-        <article class="portfolio-card reveal" data-brand="bmw">
-          <img src="https://placehold.co/800x600/1b1b1e/9A9A9F?text=BMW+X4+F26" alt="BMW X4 F26 — установка Bi-LED линз">
-          <div class="portfolio-card__body">
+        <article class="portfolio-card portfolio-card--large reveal" data-project="bmw">
+          <div class="portfolio-card__visual">
+            <svg viewBox="0 0 100 60" class="car-icon"><path d="M10 40 L18 24 L38 20 L62 20 L82 32 L92 40 L92 46 L8 46 Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="74" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="portfolio-card__overlay">
             <h3>BMW X4 F26</h3>
-            <p><strong>Задача:</strong> слабый штатный свет</p>
-            <p><strong>Работа:</strong> установка Bi-LED линз</p>
-            <p><strong>Дополнительно:</strong> [заполнить]</p>
+            <p>Слабый штатный свет и потерявшая прозрачность оптика — заменили штатные линзы на Bi-LED, восстановили прозрачность стёкол фар.</p>
+            <button class="portfolio-card__cta" type="button" data-open-modal="bmw">Смотреть проект <span class="arrow">→</span></button>
           </div>
         </article>
 
-        <article class="portfolio-card reveal" data-brand="kia-hyundai">
-          <img src="https://placehold.co/800x600/1b1b1e/9A9A9F?text=Kia+Sportage" alt="Kia Sportage — установка Bi-LED линз">
-          <div class="portfolio-card__body">
+        <article class="portfolio-card reveal" data-project="kia">
+          <div class="portfolio-card__visual">
+            <svg viewBox="0 0 100 60" class="car-icon"><path d="M10 40 L18 24 L38 20 L62 20 L82 32 L92 40 L92 46 L8 46 Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="74" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="portfolio-card__overlay">
             <h3>Kia Sportage</h3>
-            <p><strong>Задача:</strong> [заполнить]</p>
-            <p><strong>Работа:</strong> установка Bi-LED линз</p>
-            <p><strong>Дополнительно:</strong> [заполнить]</p>
+            <p>Установка Bi-LED с сохранением адаптивного света и полной настройкой светотеневой границы.</p>
+            <button class="portfolio-card__cta" type="button" data-open-modal="kia">Смотреть проект <span class="arrow">→</span></button>
           </div>
         </article>
 
-        <article class="portfolio-card reveal" data-brand="toyota-lexus">
-          <img src="https://placehold.co/800x600/1b1b1e/9A9A9F?text=Toyota+RAV4" alt="Toyota RAV4 — установка Bi-LED линз">
-          <div class="portfolio-card__body">
+        <article class="portfolio-card reveal" data-project="rav4">
+          <div class="portfolio-card__visual">
+            <svg viewBox="0 0 100 60" class="car-icon"><path d="M10 40 L18 24 L38 20 L62 20 L82 32 L92 40 L92 46 L8 46 Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="74" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="portfolio-card__overlay">
             <h3>Toyota RAV4</h3>
-            <p><strong>Задача:</strong> [заполнить]</p>
-            <p><strong>Работа:</strong> установка Bi-LED линз</p>
-            <p><strong>Дополнительно:</strong> [заполнить]</p>
+            <p>Замена штатных ламп на Bi-LED-модуль, герметизация фары и точная регулировка после установки.</p>
+            <button class="portfolio-card__cta" type="button" data-open-modal="rav4">Смотреть проект <span class="arrow">→</span></button>
           </div>
         </article>
       </div>
-
-      <p class="portfolio-note reveal placeholder-text">[Добавьте больше карточек по этому же шаблону — по одной на каждый выполненный проект]</p>
     </div>
   </section>
 
-  <!-- ===================== 7. ЦЕНЫ ===================== -->
+  <!-- Модальное окно проекта -->
+  <div class="modal" id="projectModal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__body" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" data-close-modal aria-label="Закрыть">✕</button>
+      <div class="modal__visual" aria-hidden="true">
+        <svg viewBox="0 0 100 60" class="car-icon car-icon--modal"><path d="M10 40 L18 24 L38 20 L62 20 L82 32 L92 40 L92 46 L8 46 Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="74" cy="46" r="6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </div>
+      <h3 id="modalTitle"></h3>
+      <p class="modal__row"><strong>Задача:</strong> <span id="modalTask"></span></p>
+      <p class="modal__row"><strong>Работа:</strong> <span id="modalWork"></span></p>
+      <p class="modal__row"><strong>Результат:</strong> <span id="modalResult"></span></p>
+      <a href="#final-cta" class="btn btn--primary btn--full" data-close-modal>Хочу такой же результат →</a>
+    </div>
+  </div>
+
+  <!-- ===================== 06 / SERVICES ===================== -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <p class="label reveal">06 / Services</p>
+      <h2 class="section__title reveal">Всё, что нужно<br>вашей оптике.</h2>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <h3>Light</h3>
+          <ul>
+            <li>Bi-LED</li>
+            <li>LED</li>
+            <li>ДХО</li>
+            <li>Регулировка</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <h3>Restore</h3>
+          <ul>
+            <li>Стёкла</li>
+            <li>Полировка</li>
+            <li>Ремонт</li>
+            <li>Герметизация</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <h3>Protect</h3>
+          <ul>
+            <li>Полиуретановая плёнка</li>
+            <li>Защита фар</li>
+            <li>Антихром</li>
+            <li>Окрашивание</li>
+          </ul>
+        </div>
+        <div class="service-card reveal">
+          <h3>Custom</h3>
+          <ul>
+            <li>Подсветка</li>
+            <li>Маркеры</li>
+            <li>Камеры</li>
+            <li>Доп. оборудование</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ЦЕНЫ ===================== -->
   <section class="section" id="prices">
     <div class="container">
-      <h2 class="section__title reveal">Цены</h2>
-      <p class="section__subtitle reveal">В каждый пакет уже включён подходящий тип линзы</p>
+      <h2 class="section__title reveal">Подберите свет<br>под свой автомобиль.</h2>
 
       <div class="price-grid">
         <div class="price-card reveal">
-          <h3>Базовый</h3>
-          <p class="price-card__lens">1-чиповая линза</p>
-          <p class="price-card__for">Для города, невысокие требования к дальнему свету</p>
-          <ul>
-            <li>Демонтаж/монтаж фары</li>
-            <li>Установка линз</li>
-            <li>Чистка корпуса</li>
-            <li>Герметизация</li>
-            <li>Базовая регулировка</li>
-          </ul>
+          <h3>Город</h3>
           <p class="price-card__price">от 14 000 ₽</p>
+          <p class="price-card__desc">Для ежедневной езды.</p>
         </div>
 
         <div class="price-card price-card--highlight reveal">
-          <span class="price-card__badge">Выбирают чаще всего</span>
-          <h3>Оптимальный</h3>
-          <p class="price-card__lens">2-чиповая линза</p>
-          <p class="price-card__for">Для тех, кто много ездит за городом и хочет уверенный дальний свет</p>
-          <ul>
-            <li>Всё из базового</li>
-            <li>Полировка/восстановление стекла</li>
-            <li>Расширенная диагностика электроники</li>
-            <li>Точная регулировка света</li>
-          </ul>
+          <span class="price-card__badge">Выбирают чаще</span>
+          <h3>Город + трасса</h3>
           <p class="price-card__price">от 23 000 ₽</p>
+          <p class="price-card__desc">Для регулярных поездок за город.</p>
         </div>
 
         <div class="price-card reveal">
-          <h3>Премиальный</h3>
-          <p class="price-card__lens">3-чиповая линза</p>
-          <p class="price-card__for">Для трасс и частых ночных поездок, максимальные требования к результату</p>
-          <ul>
-            <li>Всё из оптимального</li>
-            <li>Бронирование фар плёнкой</li>
-            <li>Покраска масок / индивидуальные решения</li>
-            <li>Приоритетная запись</li>
-          </ul>
+          <h3>Максимум</h3>
           <p class="price-card__price">от 35 000 ₽</p>
+          <p class="price-card__desc">Максимальная конфигурация.</p>
         </div>
       </div>
 
-      <details class="tech-details reveal">
-        <summary>Технические характеристики линз по пакетам</summary>
-        <!-- TODO: заполнить реальными данными по вашему поставщику/модели линз -->
-        <p class="placeholder-text">[Здесь будут точные данные по каждому пакету: модель линзы, световой поток (лм), потребляемая мощность (Вт), цветовая температура (K) — заполняется по факту используемого оборудования]</p>
-      </details>
+      <p class="prices-disclaimer reveal">Точная стоимость зависит от автомобиля, типа штатной оптики и выбранного решения.</p>
 
-      <p class="prices-disclaimer reveal">Точная цена зависит от модели автомобиля и типа фар — уточним после диагностики или по фото.</p>
+      <div class="section__cta reveal">
+        <a href="#final-cta" class="btn btn--primary">Прислать фото фар <span class="arrow">→</span></a>
+      </div>
     </div>
   </section>
 
-  <!-- ===================== 8. ДОВЕРИЕ ===================== -->
-  <section class="section section--secondary" id="trust">
+  <!-- ===================== 07 / APPROACH ===================== -->
+  <section class="section section--alt" id="approach">
     <div class="container">
-      <h2 class="section__title reveal">Почему нам доверяют</h2>
+      <p class="label reveal">07 / Approach</p>
+      <h2 class="section__title reveal">Работаем с оптикой,<br>а не просто меняем детали.</h2>
 
-      <div class="trust-grid">
-        <div class="trust-item reveal">
-          <!-- TODO: сформулировать точные условия гарантии -->
-          <h4>Гарантия</h4>
-          <p>От 1 до 3 лет на работу и оборудование — в зависимости от пакета услуг.</p>
-        </div>
-        <div class="trust-item reveal">
-          <h4>Штатный функционал сохранён</h4>
-          <p>Автокорректор ✓ · Адаптивный свет ✓ · ДХО ✓</p>
-        </div>
-        <div class="trust-item reveal">
-          <h4>Диагностика и регулировка</h4>
-          <p>Настройка светотеневой границы — обязательная часть каждой установки.</p>
-        </div>
-        <div class="trust-item reveal">
-          <h4>Реальные работы</h4>
-          <p>Смотрите примеры выполненных проектов в <a href="#portfolio">портфолио</a>.</p>
+      <div class="approach-grid">
+        <div class="approach-item reveal"><span>01</span><p>Подбор под автомобиль</p></div>
+        <div class="approach-item reveal"><span>02</span><p>Аккуратная установка</p></div>
+        <div class="approach-item reveal"><span>03</span><p>Восстановление герметичности</p></div>
+        <div class="approach-item reveal"><span>04</span><p>Настройка света</p></div>
+        <div class="approach-item reveal"><span>05</span><p>Проверка штатных функций</p></div>
+        <div class="approach-item reveal">
+          <span>06</span>
+          <p>Гарантия <span class="approach-item__note">от 1 до 3 лет — в зависимости от пакета</span></p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 9. ОТЗЫВЫ ===================== -->
+  <!-- ===================== 08 / REVIEWS ===================== -->
   <section class="section" id="reviews">
     <div class="container">
-      <h2 class="section__title reveal">Что говорят клиенты</h2>
-      <!-- TODO: раздел временно с плейсхолдерами — заменить на реальные отзывы, когда появятся -->
+      <p class="label reveal">08 / Reviews</p>
+      <h2 class="section__title reveal">Что говорят<br>владельцы автомобилей.</h2>
+
       <div class="reviews-placeholder reveal">
-        <p class="placeholder-text">[Здесь появятся отзывы клиентов: фото автомобиля, имя, модель, что было сделано, результат]</p>
+        <h3>Отзывы клиентов</h3>
+        <p>Каждый отзыв — это реальный автомобиль и реальная задача. Собираем и публикуем их по мере завершения работ.</p>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 10. FAQ ===================== -->
-  <section class="section section--secondary" id="faq">
+  <!-- ===================== FAQ ===================== -->
+  <section class="section section--alt" id="faq">
     <div class="container">
-      <h2 class="section__title reveal">Вопросы, которые задают чаще всего</h2>
+      <h2 class="section__title reveal">Частые вопросы</h2>
 
       <div class="faq-list reveal">
         <details class="faq-item">
-          <summary>Можно ли установить линзы в мои фары?</summary>
-          <p>В большинстве случаев — да. Точный ответ зависит от модели фары и автомобиля — напишите марку и модель в форме, и мы уточним.</p>
+          <summary>Подойдут ли Bi-LED в мои фары?</summary>
+          <p>В большинстве случаев — да. Точный ответ дадим по модели автомобиля и фото фар.</p>
         </details>
         <details class="faq-item">
-          <summary>Нужно ли разбирать фару?</summary>
-          <p>Да, качественная установка требует полной разборки фары для корректного монтажа линзы и герметизации.</p>
+          <summary>Сколько стоит установка?</summary>
+          <p>От 14 000 ₽. Точная стоимость зависит от автомобиля и выбранного пакета.</p>
         </details>
         <details class="faq-item">
-          <summary>Сохранится ли штатный дальний свет?</summary>
-          <p>Да, при корректной установке штатные функции, включая дальний свет, сохраняются.</p>
+          <summary>Сколько занимает работа?</summary>
+          <p>В среднем 4–5 часов. Для сложных фар или нестандартной комплектации может занять больше.</p>
         </details>
         <details class="faq-item">
           <summary>Сохранится ли автокорректор?</summary>
-          <p>Да, сохранение автокорректора — часть нашего техпроцесса.</p>
+          <p>Да, сохранение штатных функций — часть каждой установки.</p>
         </details>
         <details class="faq-item">
-          <summary>Сохранится ли адаптивный свет?</summary>
-          <p>Зависит от модели автомобиля — уточним точно после диагностики.</p>
+          <summary>Нужно ли менять фары целиком?</summary>
+          <p>Нет, в большинстве случаев линзы устанавливаются в штатную фару без замены корпуса.</p>
         </details>
         <details class="faq-item">
-          <summary>Нужно ли менять фару целиком?</summary>
-          <p>Нет, в подавляющем большинстве случаев линзы устанавливаются в штатную фару без замены корпуса.</p>
+          <summary>Не будет ли фара потеть?</summary>
+          <p>Нет — после установки мы полностью восстанавливаем герметичность корпуса фары.</p>
         </details>
         <details class="faq-item">
-          <summary>Сколько времени занимает установка?</summary>
-          <!-- TODO: указать реальные сроки -->
-          <p>В среднем 4–5 часов. Для сложных фар или нестандартной комплектации может занять больше — точный срок скажем после осмотра.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Есть ли гарантия?</summary>
-          <p>Да, от 1 до 3 лет на работу и оборудование — в зависимости от выбранного пакета.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Можно ли сделать только одну фару?</summary>
-          <p>Технически возможно, но для равномерного и симметричного света рекомендуем устанавливать линзы на обе фары одновременно.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Можно ли улучшить свет в противотуманных фарах?</summary>
-          <p>Да, установка Bi-LED линз возможна и в противотуманные фары — уточним по вашей модели.</p>
+          <summary>Можно ли сначала отправить фото?</summary>
+          <p>Да, пришлите фото фар в форме ниже или в Telegram — предварительно оценим объём работ.</p>
         </details>
       </div>
     </div>
   </section>
 
-  <!-- ===================== 11. ФИНАЛЬНЫЙ CTA + ФОРМА ===================== -->
-  <section class="section final-cta" id="final-cta">
+  <!-- ===================== ФИНАЛЬНЫЙ CTA ===================== -->
+  <section class="final-cta" id="final-cta">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__grain"></div>
+    </div>
+
     <div class="container final-cta__inner">
-      <h2 class="reveal">Пора наконец нормально видеть дорогу ночью?</h2>
-      <p class="reveal">Оставьте заявку — рассчитаем точную стоимость установки для вашего автомобиля.</p>
+      <h2 class="reveal">Не знаете,<br>что подойдёт<br>именно вашему авто?</h2>
+      <p class="reveal">Пришлите фото фар — подскажем варианты и предварительно рассчитаем стоимость.</p>
 
       <form class="cta-form reveal" id="ctaForm" novalidate>
         <div class="cta-form__row">
-          <label class="visually-hidden" for="carModel">Марка и модель автомобиля</label>
-          <input type="text" id="carModel" name="carModel" placeholder="Марка и модель, например Kia Sportage 2019" required>
+          <label class="visually-hidden" for="carModel">Марка, модель, год</label>
+          <input type="text" id="carModel" name="carModel" placeholder="Марка / модель / год" required>
         </div>
         <div class="cta-form__row">
           <label class="visually-hidden" for="phone">Телефон</label>
           <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
         </div>
-        <div class="cta-form__row cta-form__row--comment">
-          <label class="visually-hidden" for="comment">Комментарий</label>
-          <textarea id="comment" name="comment" placeholder="Комментарий (необязательно)" rows="3"></textarea>
+        <div class="cta-form__row">
+          <label class="cta-form__file" for="photo">
+            <span id="photoLabel">Фото фар (необязательно)</span>
+            <input type="file" id="photo" name="photo" accept="image/*">
+          </label>
         </div>
-        <button type="submit" class="btn btn--primary btn--full">Рассчитать стоимость</button>
-        <p class="cta-form__note">Ответим в течение рабочего дня</p>
+        <label class="cta-form__consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span>Согласен(-на) с <button type="button" class="link-btn" data-open-privacy>политикой обработки персональных данных</button></span>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Получить расчёт <span class="arrow">→</span></button>
         <p class="cta-form__success" id="formSuccess" role="status" hidden>Заявка принята. Свяжемся с вами в ближайшее время.</p>
       </form>
 
-      <div class="final-cta__contacts reveal">
-        <!-- TODO: заменить на реальные контакты и ссылки -->
-        <a href="tel:+79954801481">Позвонить</a>
+      <p class="final-cta__or reveal">или написать в
+        <a href="https://t.me/eyesclosed_hq_x13" target="_blank" rel="noopener">Telegram</a> /
         <a href="https://wa.me/79954801481" target="_blank" rel="noopener">WhatsApp</a>
-        <a href="https://t.me/eyesclosed_hq_x13" target="_blank" rel="noopener">Telegram</a>
-      </div>
+      </p>
     </div>
   </section>
 
 </main>
 
-<!-- ===================== ПОДВАЛ ===================== -->
-<footer class="site-footer">
+<!-- Модальное окно политики конфиденциальности -->
+<div class="modal" id="privacyModal" hidden>
+  <div class="modal__backdrop" data-close-privacy></div>
+  <div class="modal__body modal__body--text" role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
+    <button class="modal__close" type="button" data-close-privacy aria-label="Закрыть">✕</button>
+    <h3 id="privacyTitle">Политика обработки персональных данных</h3>
+    <p>Отправляя данные через форму на этом сайте, вы даёте согласие на обработку персональных данных (имя, телефон, сведения об автомобиле, приложенные фотографии) с целью связи для расчёта стоимости услуг и консультации. Данные не передаются третьим лицам и используются исключительно для обработки вашей заявки. Согласие может быть отозвано в любой момент по запросу через контакты, указанные на сайте.</p>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
   <div class="container footer__inner">
-    <p>Автооптика · Пермь</p>
-    <!-- TODO: заполнить реальные адрес и часы работы -->
-    <p class="placeholder-text">[Адрес] · [Часы работы]</p>
-    <p>&copy; <span id="year"></span> Все права защищены.</p>
+    <img src="images/logo.png" alt="Auto Optic" class="footer__logo" width="800" height="283">
+
+    <div class="footer__contacts">
+      <a href="tel:+79954801481">8 (995) 480-14-81</a>
+      <a href="https://t.me/eyesclosed_hq_x13" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://wa.me/79954801481" target="_blank" rel="noopener">WhatsApp</a>
+      <span>Пермь</span>
+    </div>
+
+    <div class="footer__legal">
+      <button type="button" class="link-btn" data-open-privacy>Политика конфиденциальности</button>
+      <p>&copy; <span id="year"></span> Auto Optic. Все права защищены.</p>
+    </div>
   </div>
 </footer>
 
 <!-- ===================== FIXED MOBILE CTA ===================== -->
 <div class="fixed-mobile-cta" id="fixedMobileCta">
-  <!-- TODO: заменить номер телефона -->
-  <a href="tel:+79954801481" class="fixed-mobile-cta__icon" aria-label="Позвонить">☎</a>
-  <a href="#final-cta" class="fixed-mobile-cta__main">Рассчитать стоимость</a>
-  <a href="https://wa.me/79954801481" target="_blank" rel="noopener" class="fixed-mobile-cta__icon" aria-label="WhatsApp">WA</a>
+  <a href="tel:+79954801481" class="fixed-mobile-cta__call">Позвонить</a>
+  <a href="#final-cta" class="fixed-mobile-cta__main">Рассчитать</a>
 </div>
 
 <script src="script.js"></script>
