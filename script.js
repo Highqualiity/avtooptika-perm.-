@@ -208,18 +208,32 @@ function initPrivacyModal() {
   });
 }
 
+let activeModal = null;
+
 function openModal(modal) {
+  if (!modal) return;
+
   modal.hidden = false;
+  activeModal = modal;
   document.body.style.overflow = 'hidden';
-  const escHandler = (e) => {
-    if (e.key === 'Escape') { closeModal(modal); document.removeEventListener('keydown', escHandler); }
-  };
-  document.addEventListener('keydown', escHandler);
 }
+
 function closeModal(modal) {
+  if (!modal) return;
+
   modal.hidden = true;
-  document.body.style.overflow = '';
+
+  if (activeModal === modal) {
+    activeModal = null;
+    document.body.style.overflow = '';
+  }
 }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && activeModal) {
+    closeModal(activeModal);
+  }
+});
 
 /* ---------------------------------------------------------
    7. Форма финального CTA
